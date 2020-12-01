@@ -8,28 +8,42 @@ h1 {
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
   font-size: 562.5%;
+  color: #66BFBF;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-
+  color: #66BFBF;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-
+  color: #11999E;
 }
 
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 5px;
+  height: 0;
+  width: 5%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
 /*                         CLASS                    */
-
 .top-container {
-  background-color: #0e918c;
+  background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
 }
 
+.bottom-container {
+  background-color: #66BFBF;
+}
 
 .software {
   text-decoration: underline;
@@ -45,9 +59,113 @@ h3 {
   position: absolute;
   right: 300px;
   top: 50px;
-
 }
 
 .noun {
   font-size: 2.5rem;
+}
+
+.footer-link1 {
+  color: #0e8287;
+  display: inline-block;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  padding-right: 5%;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-align: center;
+  margin-left: 7%
+}
+
+.footer-link2 {
+  color: #0e8287;
+  display: inline-block;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  padding-right: 5%;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+.software-subtitle {
+  font-weight: normal;
+  color: #40514E;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.D-D {
+  text-align: left;
+}
+
+.D-D_details {
+  text-align: left;
+  line-height: 2;
+}
+
+.D-D_image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.trivia_image {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.img_Chidi {
+  padding-top: 50px;
+}
+
+.BUTTON_RCT {
+  background: #2CCAC2;
+  background-image: -webkit-linear-gradient(top, #2CCAC2, rgba(29, 206, 200, 0.85));
+  background-image: -moz-linear-gradient(top, #2CCAC2, rgba(29, 206, 200, 0.85));
+  background-image: -ms-linear-gradient(top, #2CCAC2, rgba(29, 206, 200, 0.85));
+  background-image: -o-linear-gradient(top, #2CCAC2, rgba(29, 206, 200, 0.85));
+  background-image: -webkit-gradient(to bottom, #2CCAC2, rgba(29, 206, 200, 0.85));
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 5px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 5px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #66BFBF 5px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.copyright {
+  color: white;
+  font-family: fangsong;
+}
+
+.bottom_hr {
+  margin-right: 47%;
+}
+
+.Get_In_Touch {
+  margin-top: 8%;
 }
